@@ -43,6 +43,7 @@ p {
 }
 
 .found {
+    transition: ease-in-out 0.15s;
     font-size: 23px;
     font-weight: 800;
 }
@@ -60,4 +61,7 @@ p {
 .name {
     margin: 10px;
     font-weight: 800;
+}
+.found:hover {
+    color: var(--yel);
 }
